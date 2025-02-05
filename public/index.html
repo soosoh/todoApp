@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasks</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="newtask" class="disablen">
+        <form action="/" method="post">
+            <label for="task"><h1 style="text-align: center;">Create a task</h1></label>
+            <input type="text" name="task" id="newtaskname" placeholder="Task">
+            <input type="submit" value="Add" onclick="newdone()">
+        </form>
+    </div>
+    <h1>to-do app</h1>
+    <div id="tasks">
+    </div>
+    <button id="new">New task</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 # Simple To Do App
-##Usage
+## Usage
 - download mySQL
 - download npm
 - update mySQL keys in .env

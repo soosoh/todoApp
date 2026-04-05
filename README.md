@@ -1,6 +1,6 @@
 # Simple To Do App
 ## Usage
 - download mySQL
-- download npm
-- download express
+- npm install express
 - update mySQL keys in .env
+- good luck

@@ -1,6 +1,18 @@
 # Simple To Do App
-## Usage
-- download mySQL
-- npm install express
-- update mySQL keys in .env
-- good luck
+A minimalistic and self hosted task management app based on MySQL and express.js
+## Setup
+### Fork Repository
+```
+git clone https://github.com/soosoh/todoApp.git
+```
+### Download [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+### Download [Node.js](https://nodejs.org/en/download)
+### Install dependencies
+```
+npm install
+```
+### Update MySQL keys in .env accordingly
+### Start server
+```
+## License
+MIT
